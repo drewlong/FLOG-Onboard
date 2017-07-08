@@ -170,7 +170,6 @@ class MenuBuilder extends React.Component{
                                   <td>{i.price}</td>
                                   <td>
                                     <div className="btn-group item-tools">
-                                      <button className="btn btn-warning btn-flat btn-sm" name={i.name} id={m.name}><i className="fa fa-arrows" aria-hidden="true"></i></button>
                                       <button className="btn btn-danger btn-flat btn-sm" name={i.name} id={m.name} onClick={this.itemDelete}><i className="fa fa-window-close" aria-hidden="true"></i></button>
                                     </div>
                                   </td>
