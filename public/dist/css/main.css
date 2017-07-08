@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+.content{
+  min-height: 100vh;
+}
+.main-header{
+  background-color: #652d6c;
+}
+.main-header .logo{
+  font-family: 'Pacifico', cursive;
+  font-size: 140%;
+  padding: 0;
+}
+.box-header{
+  border-bottom: 1px solid #f4f4f4;
+}
+#step_one_two{
+  width: 100%;
+}
+.stepThree{
+  background-color: #fff;
+  border-radius: 4px,
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  margin-top: 25px;
+}
+
+.stepThreeBtn{
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+/* Form Styles */
+
+.ob{
+  display: table-cell;
+  float: left;
+  vertical-align: middle;
+}
+.ob-row{
+  width: 100%;
+}
+.ob-col{
+  display: table;
+}
+.ob-label{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+  float: left;
+}
+
+/* Inputs */
+
+.ob-txt{
+  width: 100%;
+}
+.pr-txt{
+  min-width: 30px;
+  max-width: 20%;
+}
+select{
+  width: 100%;
+}
+/* Search Results */
+.result-inner{
+  background: #f4f4f4;
+  width: 98%;
+  margin: 0 auto;
+}
+.menu-create{
+  width: 100%;
+}
+.item-create{
+  width: 100%;
+}
+.item-tools{
+  float: right;
+}
+/* Note Boxes */
+.note-row{
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.note-box{
+  background: #536d79;
+  border-bottom: none;
+}
+.note-box-header{
+  border-bottom: solid 1px #d2d6de;
+}
+.note-title{
+  width: 100%;
+  color: #f9f9f9;
+}
+.note-close{
+  right: 0;
+  top: 0;
+  padding: 0 5px;
+  border-radius: 100%;
+  background: #3e525b;
+}
+.close-btn{
+  font-size: 2em;
+}
+.note-box-body{
+  background-color: #3e525b;
+  color: #f0f0f0;
+}
+/* Overrides */
+.box-body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* Misc */
+.next-btn{
+  font-size: 1.25em;
+  width: 80%;
+}
+.spinner{
+  text-align: center;
+  background: none;
+  padding-top: 15%;
+}
+.mod-footer{
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: solid 1px #f0f0f0;
+}
+label{
+  padding: 5px 0 ;
+}
